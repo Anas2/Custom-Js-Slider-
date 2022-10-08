@@ -1,0 +1,56 @@
+.head{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+}
+.main button{
+font-size: 30px;
+}
+.main{
+    position: relative;
+}
+.leftDisplaynone{
+    position: absolute;
+    top: 300px;
+    font-size: 90px;
+    margin-left: 16px;
+    opacity: 0.3;
+    color: white;
+    font-weight: bold;
+}
+.rightDisplaynone{
+    position: absolute;
+    top: 318px;
+    font-size: 90px;
+    margin-left: -74px;
+    opacity: 0.3;
+    color: white;
+    font-weight: bold;
+}
+.clickleft{
+    position: absolute;
+    top: 300px;
+    font-size: 90px;
+    margin-left: 16px;
+    opacity: 0.5;
+    color: white;
+    background-color: black;
+    width: 60px;
+    font-weight: bold;
+
+}
+
+.clickright{
+    position: absolute;
+    top: 318px;
+    font-size: 90px;
+    margin-left: -74px;
+    opacity: 0.5;
+    color: white;
+    background-color: black;
+    width: 60px;
+    font-weight: bold;
+}
+img{
+    height: 570px;
+}

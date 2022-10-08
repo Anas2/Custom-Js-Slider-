@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="head">
+        <h1>Slider assignment</h1>
+    </div>
+    <div class="main">
+
+        <span id="left" class="leftDisplaynone" onmouseenter="displayleft()" onmouseout="displayleftout()" onclick="changeimgleft(-1)"><</span>
+        <img id="img" src="images/slider1.jpg" alt="" width="1280px">
+        <span id="right" class="rightDisplaynone" onmouseenter="displayright()" onmouseout="displayrightout()" onclick="changeimgright(1)"> > </span>
+    </div>
+    <p id="demo"></p>
+</body>
+<script src="app.js"></script>
+</html>
